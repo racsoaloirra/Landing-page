@@ -1,0 +1,49 @@
+/* style.css */
+body{
+  background-color: #BAE0FF;
+  background-image: url("images/diamond.png");
+  color: #444B6E;
+  font-size: 25px;
+  font-family: Helvetica;
+  text-align: center;
+}
+h1{
+  font-family: Courier;
+  color: #FFC857;
+  font-weight: lighter;
+  font-size: 30px;
+}
+h2 {
+  font-family: Courier;
+  color: #5A5353;
+  font-weight: lighter;
+  font-size: 8px;
+}
+a {
+  color: #A07178;
+  text text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  }
+#footer a:hover {
+  color: white;
+}
